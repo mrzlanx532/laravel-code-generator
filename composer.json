@@ -1,0 +1,34 @@
+{
+  "name": "mrzlanx532/laravel-code-generator",
+  "description": "Laravel code generator",
+  "license": "MIT",
+  "homepage": "https://github.com/mrzlanx532/laravel-code-generator",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Denis Danilov",
+      "email": "denis_danilov_97@mail.ru",
+      "role": "Fullstack-developer",
+      "homepage": "https://t.me/mrzlanx532"
+    }
+  ],
+  "support": {
+    "email": "denis_danilov_97@mail.ru",
+    "docs": "https://github.com/mrzlanx532/laravel-code-generator/-/blob/main/README.md"
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mrzlanx532\\LaravelCodeGenerator\\": "src/"
+    }
+  },
+  "extra" : {
+    "laravel" : {
+      "providers" : [
+        "Mrzlanx532\\LaravelCodeGenerator\\Providers\\LaravelCodeGeneratorProvider"
+      ]
+    }
+  }
+}
